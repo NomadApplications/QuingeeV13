@@ -368,6 +368,10 @@ function handleCommands(client) {
 
             const profiles = db.get(user.id + ".profiles");
             db.set(user.id + ".daily", false);
+            
+            profiles.forEach(p => {
+                addCurrency(p, dailyReward);
+            })
 
             const embed = new Discord.MessageEmbed()
                 .setTitle('Daily Reward')
