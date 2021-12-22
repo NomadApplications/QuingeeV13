@@ -1,4 +1,4 @@
-# Quingee Bot
+# Quingee Bot <img src="https://img.shields.io/discord/850103302569984021?style=plastic">
 
 The Quingee Bot is a bot made for Gale's End.
 
