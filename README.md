@@ -20,3 +20,7 @@ npm install
 - [Reaction Roles](https://github.com/NomadApplications/QuingeeV13/tree/main/modules/reaction-roles) - Reactions roles made with embeds and buttons with ephermeal responses.
 - [Seasons](https://github.com/NomadApplications/QuingeeV13/tree/main/modules/seasons) - This bot also has its own calendar system with items corresponding to those seasons. (In the shops and games)
 - [Shops](https://github.com/NomadApplications/QuingeeV13/tree/main/modules/shop) - There are two kinds of shops: the item shop and the furniture shop. They both are made with embeds and buttons.
+
+## License
+
+[MIT](https://github.com/NomadApplications/QuingeeV13/blob/main/LICENSE.txt)
