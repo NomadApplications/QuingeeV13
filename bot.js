@@ -31,10 +31,10 @@ client.on('ready', async () => {
     require('./modules/shop/shop')(client);
     require('./modules/help/help')(client);
 
-    require('./modules/join-leave').startEvent(client);
+    require('./modules/join-leave')(client);
 
-    process.on("uncaughtException", (e) => {});
-    client.on("uncaughtException", (e) => {});
+    process.on("uncaughtException", () => {});
+    client.on("uncaughtException", () => {});
 
     (await client.guilds.cache.get(config.ids.guildID).members.fetch()).forEach(member => {
         const user = member.user;

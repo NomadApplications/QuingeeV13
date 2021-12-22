@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 module.exports.startEvent = function (client) {
+=======
+module.exports = function (client) {
+>>>>>>> Stashed changes
     client.on("guildMemberAdd", async member => {
 
         initUser(member.user);

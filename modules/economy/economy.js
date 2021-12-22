@@ -366,33 +366,7 @@ function handleCommands(client) {
                 return;
             }
 
-            let addedTo = [];
             const profiles = db.get(user.id + ".profiles");
-            if (Array.isArray(profiles)) {
-                for (let i = 0; i < profiles.length; i++) {
-                    let m = 0;
-                    profiles[i].nodeSlots.forEach(node => {
-                        if (node !== null) m++;
-                    });
-                    if (m > 0) {
-                        addCurrency(profiles[i], dailyReward * m);
-                        addedTo.push([profiles[i], m + 1]);
-                    }
-                }
-            } else {
-                let m = 0;
-                profiles.nodeSlots.forEach(node => {
-                    if (node !== null) m++;
-                });
-                if (m > 0) {
-                    addCurrency(profiles, dailyReward * m);
-                    addedTo.push([profiles, m + 1]);
-                }
-            }
-            if (addedTo.length === 0) {
-                await replyError(interaction, "There are no nodes that can add currency to.");
-                return;
-            }
             db.set(user.id + ".daily", false);
 
             const embed = new Discord.MessageEmbed()
@@ -400,11 +374,8 @@ function handleCommands(client) {
                 .setColor(config.colors.currencyColor)
                 .setDescription("Reward: " + dailyReward);
 
-            addedTo.forEach(a => {
-                const p = a[0];
-                const m = a[1];
-                embed.addField(p.title, `x${m} (${config.economy.moneyPrefix} ${dailyReward * m})`, false);
-            });
+            embed.addField("Rewards added:", `x${profiles.length} (${config.economy.moneyPrefix} ${dailyReward * profiles.length})`, false);
+
             embed.setFooter("Quingee Bot", interaction.user.displayAvatarURL())
 
             await reply(interaction, embed);
