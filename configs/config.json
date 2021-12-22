@@ -1,0 +1,391 @@
+{
+  "moderationPrefix": "?",
+  "musicPrefix": ">",
+  "websiteURL": "<https://galesend.twohoot.net/>",
+  "colors": {
+    "successColor": "#92926d",
+    "defaultColor": "#6d6d49",
+    "errorColor": "#f0ac97",
+    "currencyColor": "#ffedc3",
+    "musicColor": "#d6aadf"
+  },
+  "ids": {
+    "guildID": "850103302569984021",
+    "welcomeID": "851136931639459870",
+    "rulesChannelID": "851136974546796564",
+    "announcementChannelID": "881687170186903602",
+    "modlogID": "881687260783841322"
+  },
+  "roles": {
+    "join": {
+      "enabled": false,
+      "id": "875850251309813880"
+    },
+    "reactionRoleChannel": "881687460713742446",
+    "reactionRoles": [
+      {
+        "name": "Pronouns",
+        "description": "Choose your preferred pronouns below (you may select multiple!)",
+        "options": [
+          {
+            "emoji": "🌱",
+            "description": "he/him",
+            "id": "881692736682623056"
+          },
+          {
+            "emoji": "🌷",
+            "description": "she/her",
+            "id": "881692705292431370"
+          },
+          {
+            "emoji": "🌿",
+            "description": "they/them",
+            "id": "881692840764268564"
+          },
+          {
+            "emoji": "🌼",
+            "description": "ask for my pronouns",
+            "id": "881692876378107925"
+          }
+        ]
+      },
+      {
+        "name": "Your Timezone",
+        "description": "Tags for easily keeping track of timezones!",
+        "options": [
+          {
+            "emoji": "🌎",
+            "description": "Americas",
+            "id": "882727497626701844"
+          },
+          {
+            "emoji": "🌍",
+            "description": "EU/Africa",
+            "id": "882727544569344001"
+          },
+          {
+            "emoji": "🌏",
+            "description": "Asia/Australia",
+            "id": "882727591323246592"
+          }
+        ]
+      },
+      {
+        "name": "Server Ping Toggles",
+        "description": "Notifcation settings related to Gale's End!",
+        "options": [
+          {
+            "emoji": "☀️",
+            "description": "Weather and calendar alerts",
+            "id": "882729627976597604"
+          },
+          {
+            "emoji": "📝",
+            "description": "Notify me for patch notes",
+            "id": "882732169800318976"
+          },
+          {
+            "emoji": "👀",
+            "description": "Looking for a new roleplay",
+            "id": "882729702442287134"
+          },
+          {
+            "emoji": "🎨",
+            "description": "Looking for a new collab",
+            "id": "882732406711410699"
+          }
+        ]
+      },
+      {
+        "name": "Optional Community Pings",
+        "description": "Sign up for notifications for other fun things!",
+        "options": [
+          {
+            "emoji": "🎮",
+            "description": "You want to be pinged for Minecraft!",
+            "id": "881960717098561537"
+          },
+          {
+            "emoji": "🕹️",
+            "description": "You want to be pinged for other multiplayer games!",
+            "id": "882731797413253121"
+          },
+          {
+            "emoji": "📽️",
+            "description": "You want to join in on movie nights!",
+            "id": "881960745150054471"
+          },
+          {
+            "emoji": "✏️",
+            "description": "You're looking to draw with friends!",
+            "id": "881960825047367730"
+          }
+        ]
+      }
+    ]
+  },
+  "minigames": {
+    "timeBetweenMinigames": 20
+  },
+  "calendar": {
+    "dailyAnnouncement": {
+      "message": "ꕥ - - - - <@&882729627976597604> - - - - \n > Good morning, residents of Gale’s End! **Day {day}** of **{season}** has arrived onto the cliffs of Galinn Peak. {weather}"
+    },
+    "seasonLength": 4,
+    "seasonEvents": [
+      {
+        "eventTitle": "Winter & Bullfrog",
+        "eventSeason": "spring1",
+        "eventDay": "1",
+        "announcementMessage": "> A very happy Birthday to Winter & Bullfrog! We hope it's a great one. <@885181961663045654>"
+      },
+      {
+        "eventTitle": "New Year's Day",
+        "eventSeason": "spring1",
+        "eventDay": "1",
+        "announcementMessage": "> We party by welcoming in the New Year! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Bamboo Growth Season",
+        "eventSeason": "spring1",
+        "eventDay": "4",
+        "announcementMessage": "> Bamboo has been springing up like crazy! is here! Check out the event guide for more information. <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Not-Valentine's",
+        "eventSeason": "spring1",
+        "eventDay": "14",
+        "announcementMessage": "> It's not Valentine's Day is here! Check out the event guide for more information. <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Spring Cleaning Day",
+        "eventSeason": "spring1",
+        "eventDay": "22",
+        "announcementMessage": "> Let's all clean up! is here! Check out the event guide for more information. <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Spring Festivale",
+        "eventSeason": "spring2",
+        "eventDay": "2",
+        "announcementMessage": "> We're celebrating spring's best blooms with the Spring Festivale! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Seed Hunt",
+        "eventSeason": "spring2",
+        "eventDay": "11",
+        "announcementMessage": "> Like easter but also not because we're hiding seeds! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Spidee Departure",
+        "eventSeason": "spring2",
+        "eventDay": "28",
+        "announcementMessage": "> Goodbye Spidee! We'll miss you! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Wild Fruit Season",
+        "eventSeason": "summer1",
+        "eventDay": "1",
+        "announcementMessage": "> The wild fruit in the area look ready to pick! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Trade Fair",
+        "eventSeason": "summer1",
+        "eventDay": "4",
+        "announcementMessage": "> Like a big craft fair but for trading. Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Moon Viewing",
+        "eventSeason": "summer1",
+        "eventDay": "9",
+        "announcementMessage": "> Tonight the moon will be the most beautiful it'll be all year. Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Beach Episode Day",
+        "eventSeason": "summer1",
+        "eventDay": "27",
+        "announcementMessage": "> It's the Beach Episode everybody. Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Annual Summer Cockout",
+        "eventSeason": "summer2",
+        "eventDay": "3",
+        "announcementMessage": "> Get your grill ready because today is the Annual Summer Cookout! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Water Lilies Spotted",
+        "eventSeason": "summer2",
+        "eventDay": "6",
+        "announcementMessage": "> An influx of water lilies have been seen growing! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Annual Meteor Shower",
+        "eventSeason": "summer2",
+        "eventDay": "13",
+        "announcementMessage": "> Comets fall from the sky today. Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Angelo Evres",
+        "eventSeason": "summer2",
+        "eventDay": "25",
+        "announcementMessage": "> A very happy Birthday to Angelo Evres! We hope it's a great one."
+      },
+      {
+        "eventTitle": "Fireworks Festival",
+        "eventSeason": "summer2",
+        "eventDay": "28",
+        "announcementMessage": "> It's not 4th of July! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Acorn Season",
+        "eventSeason": "fall1",
+        "eventDay": "1",
+        "announcementMessage": "> Now that it's Fall.. acorns are dropping everywhere! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Gale's End Founding Day",
+        "eventSeason": "fall1",
+        "eventDay": "8",
+        "announcementMessage": "> Today we celebrate the town being founded! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Not-Halloween",
+        "eventSeason": "fall1",
+        "eventDay": "28",
+        "announcementMessage": "> It's Not-Halloween! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Fluster Migration",
+        "eventSeason": "fall2",
+        "eventDay": "1",
+        "announcementMessage": "> The Flusters seem to be appearing this month. Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Fishing Tournament",
+        "eventSeason": "fall2",
+        "eventDay": "2",
+        "announcementMessage": "> Every year we fish! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Fall Harvest",
+        "eventSeason": "fall2",
+        "eventDay": "20",
+        "announcementMessage": "> It's the Fall Harvest! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Munnie Migration",
+        "eventSeason": "winter1",
+        "eventDay": "2",
+        "announcementMessage": "> Munnies have traveled upstream to fish up! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Bonfire Day",
+        "eventSeason": "winter1",
+        "eventDay": "5",
+        "announcementMessage": "> There will be a big bonfire in town! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Ice Skating Competition",
+        "eventSeason": "winter1",
+        "eventDay": "17",
+        "announcementMessage": "> Today is the Ice Skating Competition! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Snow Sculpture Competition",
+        "eventSeason": "winter1",
+        "eventDay": "19",
+        "announcementMessage": "> Today is the Snow Sculture Competiton! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Storm Preperation",
+        "eventSeason": "winter2",
+        "eventDay": "1",
+        "announcementMessage": "> Are you prepared for the Storm? Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Deep Frost",
+        "eventSeason": "winter2",
+        "eventDay": "2",
+        "announcementMessage": "> Rumor says Ice can be collected in the mines right about now. Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Hot Spring Day",
+        "eventSeason": "winter2",
+        "eventDay": "13",
+        "announcementMessage": "> The Hot Springs have shown up for this one day! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "Not-Christmas",
+        "eventSeason": "winter2",
+        "eventDay": "24",
+        "announcementMessage": "> It's Not Christmas! Wow! Check out the event guide for more information! <@885173185853665330>"
+      },
+      {
+        "eventTitle": "The Storm",
+        "eventSeason": "winter2",
+        "eventDay": "28",
+        "announcementMessage": "> The Storm has arrived. Check out the event guide for more information.<@885173185853665330>"
+      }
+    ]
+  },
+  "economy": {
+    "maximumProfiles": 3,
+    "profileCosts": [
+      200,
+      300,
+      500
+    ],
+    "startingCurrency": 10,
+    "startingProfileName": "Bank",
+    "name": "Gald",
+    "moneyPrefix": "₲",
+    "daily": {
+      "min": 50,
+      "max": 150
+    },
+    "shopItemsPerPage": 10
+  },
+  "homesteads": {
+    "houses": [
+      {
+        "name": "Home Tier 1",
+        "nodeAmount": 1,
+        "price": 0
+      },
+      {
+        "name": "Home Tier 2",
+        "nodeAmount": 2,
+        "price": 500
+      },
+      {
+        "name": "Home Tier 3",
+        "nodeAmount": 3,
+        "price": 1000
+      },
+      {
+        "name": "Home Tier 4",
+        "nodeAmount": 4,
+        "price": 10000
+      },
+      {
+        "name": "Home Tier 5",
+        "nodeAmount": 5,
+        "price": 30000
+      },
+      {
+        "name": "Home Tier 7",
+        "nodeAmount": 6,
+        "price": 50000
+      },
+      {
+        "name": "Home Tier 8",
+        "nodeAmount": 7,
+        "price": 70000
+      },
+      {
+        "name": "Home Tier 9",
+        "nodeAmount": 8,
+        "price": 100000
+      }
+    ]
+  }
+}
